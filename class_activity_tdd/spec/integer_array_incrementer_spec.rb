@@ -20,8 +20,8 @@ RSpec.describe IntegerArrayIncrementer do
     end
 
     it 'should return [1, 0] when input is [9]' do
-      input = [1, 0]
-      expected_output = [1, 1]
+      input = [9]
+      expected_output = [1, 0]
 
       actual_output = IntegerArrayIncrementer.new.increment(input)
       expect(actual_output).to eq(expected_output)
