@@ -1,5 +1,5 @@
-require './test_helper'
-require '../integer_array_incrementer'
+require_relative './test_helper'
+require_relative '../integer_array_incrementer'
 
 RSpec.describe IntegerArrayIncrementer do
   context '#increment' do
