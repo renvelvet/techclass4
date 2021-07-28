@@ -2,9 +2,8 @@ class IntegerArrayIncrementer
 
   def increment(arr)
     output = []
-    if arr.first == 9
-      output = [1]
-      output = output << 0
+    if arr.last < 9
+      output = [arr.first, arr.last + 1]
     end
     output
   end
